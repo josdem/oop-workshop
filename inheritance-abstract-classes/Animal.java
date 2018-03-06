@@ -21,7 +21,7 @@ abstract class Animal {
     System.out.println(
         "A " + name + " says " + this.getGreeting()
         + ", is " + (this.getIsCarnivorous() ? "" : "not")
-        + "carnivorous, and is " + (this.getIsMammal() ? "" : "not ") + " a mammal."
+        + "carnivorous, and is " + (this.getIsMammal() ? "" : "not ") + "a mammal."
         );
   }
 
