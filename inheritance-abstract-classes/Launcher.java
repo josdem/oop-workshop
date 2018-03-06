@@ -2,10 +2,13 @@ public class Launcher {
 
   public static void main(String[] args){
     Animal dog = new Dog();
-    dog.printAnimal("dog");
+    dog.printAnimal("Dog");
 
     Animal cow = new Cow();
-    cow.printAnimal("cow");
+    cow.printAnimal("Cow");
+
+    Animal duck = new Duck();
+    duck.printAnimal("Duck");
   }
 
 }
