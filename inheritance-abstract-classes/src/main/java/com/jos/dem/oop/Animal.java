@@ -19,12 +19,11 @@ abstract class Animal {
 
   abstract public String getGreeting();
 
-  public void printAnimal(String name){
-    System.out.println(
+  public String printAnimal(String name){
+    return
         "A " + name + " says " + this.getGreeting()
         + ", is " + (this.getIsCarnivorous() ? "" : "not ")
-        + "carnivorous, and is " + (this.getIsMammal() ? "" : "not ") + "a mammal."
-        );
+        + "carnivorous, and is " + (this.getIsMammal() ? "" : "not ") + "a mammal";
   }
 
 }

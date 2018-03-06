@@ -7,7 +7,7 @@ class Dog extends Animal {
   }
 
   public String getGreeting(){
-    return "barks";
+    return "bark";
   }
 
 }
