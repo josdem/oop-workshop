@@ -13,4 +13,13 @@ class AnimalSpec extends Specification {
       result == 'A Dog says bark, is carnivorous, and is a mammal'
   }
 
+  void "should say hello to the Cow"(){
+    given:'A Cow Animal'
+      Animal cow = new Cow()
+    when:'We say hello'
+      String result = cow.printAnimal("Cow")
+    then:'We expect formatted hello'
+      result == 'A Cow says moo, is not carnivorous, and is a mammal'
+  }
+
 }
