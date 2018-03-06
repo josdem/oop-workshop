@@ -1,3 +1,5 @@
+package com.jos.dem.oop;
+
 abstract class Animal {
   boolean isMammal;
   boolean isCarnivorous;

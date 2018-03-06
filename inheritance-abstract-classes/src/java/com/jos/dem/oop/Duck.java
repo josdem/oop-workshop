@@ -1,3 +1,5 @@
+package com.jos.dem.oop;
+
 class Duck extends Animal {
 
   Duck(){
