@@ -1,16 +1,19 @@
 package com.jos.dem.oop;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Launcher {
 
-  public static void main(String[] args){
+  public void start(){
     Animal dog = new Dog();
-    dog.printAnimal("Dog");
+    System.out.println(dog.printAnimal("Dog"));
 
     Animal cow = new Cow();
-    cow.printAnimal("Cow");
+    System.out.println(cow.printAnimal("Cow"));
 
     Animal duck = new Duck();
-    duck.printAnimal("Duck");
+    System.out.println(duck.printAnimal("Duck"));
   }
 
 }
