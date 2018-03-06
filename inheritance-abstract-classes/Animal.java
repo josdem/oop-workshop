@@ -1,6 +1,6 @@
 abstract class Animal {
-  protected boolean isMammal;
-  protected boolean isCarnivorous;
+  boolean isMammal;
+  boolean isCarnivorous;
 
   public Animal(boolean isMammal, boolean isCarnivorous){
     this.isMammal = isMammal;
