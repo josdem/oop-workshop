@@ -1,8 +1,11 @@
 package com.jos.dem.oop;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Launcher {
 
-  public static void main(String[] args){
+  public void start(){
     Animal dog = new Dog();
     System.out.println(dog.getGreeting("Dog"));
 
