@@ -16,5 +16,11 @@ public class AnimalTest {
     Animal cow = new Cow();
     assertEquals("Cow says moo", cow.getGreeting("Cow"));
   }
+
+  @Test
+  public void shouldDuckSaysHello(){
+    Animal duck = new Duck();
+    assertEquals("Duck says quack", duck.getGreeting("Duck"));
+  }
     
 }
